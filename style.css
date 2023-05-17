@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 38px;
+    line-height: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+nav{
+    height: 80px;
+
+}
+.container-navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1280px; 
+    padding-top: 20px;
+}
+.logo{
+    padding-right: 20px;
+}
+.menu ul{
+    display: flex;
+    margin: 0 15px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.main{
+    background-color: #f1f1f1;
+    /* margin-bottom: 100px; */
+}
+.logo-kinley{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    background-color: rgb(252, 255, 255);
+    /*to make it fixed
+     width: 100%;
+    position: fixed; */
+}
+.logo-kinley img{
+    width: 64px;
+}
+.banner-1{
+    display: flex;
+    justify-content: center;
+}
+.banner-1 img{
+    width: 1280px;
+    height: 604px;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+.container-product-detail{
+    padding-left: 114.5px;
+    padding-right: 114.5px;
+}
+.product-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.product-img1{
+    width: 540px;
+}
+.product-img1 img{
+    width: 100%;
+    border-radius: 20px;
+}
+.product-info1{
+    display: flex;
+    flex-direction: column;
+    padding-top:  150px; ;
+}
+.product-head1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.product-desc1{
+    height: 130px;
+    width: 450px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+.product-btn1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    width: 327px;
+    line-height: 26px;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid #000;
+    background-color: transparent; 
+    text-decoration: none;
+}
+.video-img1{
+    display: flex;
+    justify-content: space-between;
+}
+.video-img1 img{
+    width: 1120px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.video-img2{
+    display: flex;
+    margin-top: 80px;
+}
+.video-img2 img{
+    width: 1120px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.product-2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 150px;
+}
+.product-img2{
+    width: 540px;
+}
+.product-img2 img{
+    width: 100%;
+    border-radius: 20px;
+}
+.product-info2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+}
+.product-head2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.product-desc2{
+    height: 130px;
+    width: 450px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+.product-btn2{
+    /* font-family: 'Noto Sans JP', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    width: 327px;
+    line-height: 26px;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid #000;
+    background-color: transparent; 
+    text-decoration: none;
+}
+.social-media{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 50px 0 50px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    padding: 0 600px 0 100px;
+    text-decoration: none;
+}
+.twitter{
+    width: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    border-width: 1px;
+    border-color: white;
+    background-color: transparent;
+    border-width: 2px;
+}
+.twitter img{
+    width: 17px;
+}
+.youtube{
+    width: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    border-width: 1px;
+    background-color: #000;
+    border-color: white;
+    border-width: 2px;
+}
+.youtube img{
+    width: 17px;
+}
+.facebook{
+    width: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    border-width: 1px;
+    background-color: #000;
+    border-color: white;
+    border-width: 2px;
+}
+.facebook img{
+    width: 14px;
+}
+.instagram{
+    width: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    border-width: 1px;
+    border-color: #fff;
+    background-color: #000;
+    border-width: 2px;
+}
+.instagram img{
+    width: 14px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight:lighter;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: #000;
+    padding: 100px 114.5px;
+
+}
+.logo-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff ;
+    padding-bottom: 40px;
+}
+.logo-head button{
+    background-color:#000 ;
+    color: #fff;
+    border-radius: 40px;
+    border-width: 2px;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-color: #fff;
+}
+.about-head{
+    display: flex;
+    /* justify-content:space-; */
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600px;
+    color: gray;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+.about-head-left{
+    width: 10rem;
+}
+.about-btn {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    border-width: 10px;
+    gap: 10px;
+}
+.about-list-head{
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    column-gap: 30px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+}
+.about-list-head li{
+    list-style-type: none;
+    padding-bottom: 10px;
+    font-weight: 200;
+}
+.footer-end{
+    text-align: right;
+    color: #fff;
+}
